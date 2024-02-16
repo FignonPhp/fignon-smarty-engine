@@ -1,0 +1,56 @@
+
+{
+    "name": "fignon/fignon-smarty-engine",
+    "description": "The Fignon smarty Engine is a simple class which serve as bridge between the smarty template engine and Fignon Framework",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fignon\\Extra\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Dah-kenangnon",
+            "email": "dah-kenangnon@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/FignonPhp/fignon-smarty-engine",
+    "support": {
+        "issues": "https://github.com/FignonPhp/fignon-smarty-engine/issues",
+        "source": "https://github.com/FignonPhp/fignon-smarty-engine",
+        "docs": "https://github.com/FignonPhp/fignon-smarty-engine/README.md"
+    }, 
+    "keywords": [
+        "php",
+        "tunnel",
+        "middleware",
+        "chain",
+        "runner",
+        "http",
+        "request",
+        "response",
+        "website",
+        "rest",
+        "api",
+        "restful",
+        "rest-api",
+        "php-framework",
+        "php-middleware"
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0.0",
+        "FignonPhp/fignon-view-engine": "^0.0.1",
+        "smarty/smarty": "^3.0"
+    }
+}
